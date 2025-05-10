@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestClasses.AddPatVitalsTest">
+        <methods>
+          <include name="teardownDriver"/>
+          <include name="addPatVitals"/>
+          <include name="setupExtent"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.AddPatVitalsTest -->
+      <class name="TestClasses.AddConditionTest">
+        <methods>
+          <include name="teardownDriver"/>
+          <include name="setupExtent"/>
+          <include name="addCondition"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.AddConditionTest -->
+      <class name="TestClasses.RegisterPatientTest">
+        <methods>
+          <include name="teardownDriver"/>
+          <include name="setupExtent"/>
+          <include name="addPatient" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.RegisterPatientTest -->
+      <class name="TestClasses.EndVisitTest">
+        <methods>
+          <include name="endVisit"/>
+          <include name="teardownDriver"/>
+          <include name="setupExtent"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestClasses.EndVisitTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
