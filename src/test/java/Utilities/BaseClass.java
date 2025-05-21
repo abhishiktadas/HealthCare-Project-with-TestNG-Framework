@@ -68,7 +68,7 @@ package Utilities;
 
 	        reports.setSystemInfo("Machine", "RKTest1");
 	        reports.setSystemInfo("OS", "Windows11");
-	        reports.setSystemInfo("User", "Rahul Kundu");
+	        reports.setSystemInfo("User", "Abhishikta Das");
 	        reports.setSystemInfo("Browser", "Chrome");
 
 	        htmlReporter.config().setDocumentTitle("Automation Test Report");
