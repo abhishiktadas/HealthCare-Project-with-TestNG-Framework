@@ -101,6 +101,7 @@
 		<configuration>
         	<includes>
           	<include>TestRun.java</include>
+		</includes>
       		</configuration>
         </plugin>
         <plugin>
